@@ -18,6 +18,7 @@ public class ModItemGroups {
                         entries.add(ModItems.GEM);
                         entries.add(ModItems.RED_GEM);
                         entries.add(ModBlocks.GEM_BLOCK);
+                        entries.add(ModBlocks.RED_GEM_BLOCK);
                     }).build());
     public static void registerItemGroups() {
         PBJButNot.LOGGER.info("Registering Item Groups for " +PBJButNot.MOD_ID);

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "pbjbutnot:gem_block"
+    }
+  ],
+  "result": {
+    "item": "pbjbutnot:gem",
+    "count": 9
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 0.75,
+  "group": "gem",
+  "ingredient": {
+    "item": "pbjbutnot:gem"
+  },
+  "result": "pbjbutnot:red_gem"
+}

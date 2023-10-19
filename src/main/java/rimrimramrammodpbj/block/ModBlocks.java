@@ -14,6 +14,8 @@ import rimrimramrammodpbj.PBJButNot;
 public class ModBlocks {
     public static final Block GEM_BLOCK = registerBlock("gem_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block RED_GEM_BLOCK = registerBlock("red_gem_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
 
     private static Block registerBlock(String name, Block block) {
