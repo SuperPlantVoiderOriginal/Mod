@@ -11,10 +11,12 @@ import rimrimramrammodpbj.PBJButNot;
 
 public class ModItems {
     public static final Item GEM = registerItem("gem", new Item(new FabricItemSettings()));
+    public static final Item RED_GEM = registerItem("red_gem", new Item(new FabricItemSettings()));
 
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(GEM);
+        entries.add(RED_GEM);
     }
 
     private static Item registerItem(String name, Item item) {
