@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import rimrimramrammodpbj.PBJButNot;
+import rimrimramrammodpbj.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup GEM_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -16,6 +17,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.GEM)).entries((displayContext, entries) -> {
                         entries.add(ModItems.GEM);
                         entries.add(ModItems.RED_GEM);
+                        entries.add(ModBlocks.GEM_BLOCK);
                     }).build());
     public static void registerItemGroups() {
         PBJButNot.LOGGER.info("Registering Item Groups for " +PBJButNot.MOD_ID);
