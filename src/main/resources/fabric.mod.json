@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "pbjbutnot",
+	"version": "${version}",
+	"name": "PB&J:ButNot",
+	"description": "This is a wierd mod by Super plant (LuxRoupRawr) and Priberry, mostly code and stupid name is Super plant",
+	"authors": [
+		"Super plant (LuxRoupRawr) and Priberry"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/pbjbutnot/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"rimrimramrammodpbj.PBJButNot"
+		],
+		"client": [
+			"rimrimramrammodpbj.PBJButNotClient"
+		],
+		"fabric-datagen": [
+			"rimrimramrammodpbj.PBJButNotDataGenerator"
+		]
+	},
+	"mixins": [
+		"pbjbutnot.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
