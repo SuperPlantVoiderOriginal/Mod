@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "pbjbutnot:gem_block",
+    "pbjbutnot:red_gem_block",
+    "pbjbutnot:green_gem_ore",
+    "pbjbutnot:green_gem_block"
+  ]
+}

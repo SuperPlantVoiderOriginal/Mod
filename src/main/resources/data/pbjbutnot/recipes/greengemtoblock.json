@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pbjbutnot:green_gem"
+    }
+  },
+  "result": {
+    "item": "pbjbutnot:green_gem_block"
+  }
+}
